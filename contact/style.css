@@ -1,0 +1,153 @@
+/* Universal Styles */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    color: #1F599D;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+    /* Header Section */
+
+  .flexbox{
+    display: flex;
+  }
+
+  header {
+    width: 100%;
+    height: 67px;
+    background-color: #073C9E;    
+    align-items: center;
+  }
+
+  header img {
+    height: 47px;
+    padding-right: 5px;
+    margin-left: 700px;
+  }
+
+  .name h2 {
+    color: white;
+    font-size: 25px;
+  }
+
+  nav {
+    text-align: right;
+    flex-grow: 1;
+  }
+  
+  nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .banner img{
+    width: 100%;
+  }
+  
+  /* Contact-Address Section */
+
+  #contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+  }
+
+  .data {
+    display: inline-block;
+    width: 200px;
+  }
+
+  .mail {
+    display: inline-block;
+    width: 210px;
+  }
+
+  .insta {
+    display: inline-block;
+    width: 150px;
+  }
+
+  .data img {
+    width: 40px;
+    height: 40px;
+    float: left;
+  } 
+
+  .mail img {
+    width: 40px;
+    height: 40px;
+    float: left;
+  }
+
+  .insta img {
+    width: 40px;
+    height: 40px;
+    float: left;
+  }
+
+  .data p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  .mail p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .insta p {
+    font-size: 18px;
+    margin-top: 10px;
+  } 
+
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .engine {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  
+  /* Footer  Section */
+
+  .engine img {
+    width: 100%;
+    vertical-align: bottom;
+  }
+ 
+  footer {
+    background-color: #073C9E;
+    color: #fff;
+    padding: 5px 0;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+  
+  }
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+  }
