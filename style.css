@@ -1,0 +1,150 @@
+/* Universal Styles */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    color: #1F599D;
+  }
+  
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    hr {
+      color: white;
+    }
+
+/* Header Section */
+
+  .flexbox{
+    display: flex;
+  }
+
+  header {
+    width: 100%;
+    height: 67px;
+    background-color: #073C9E;    
+    align-items: center;
+  }
+
+  header img {
+    height: 47px;
+    padding-right: 5px;
+    margin-left: 700px;
+  }
+
+  .name h2 {
+    color: white;
+    font-size: 25px;
+  }
+
+  nav {
+    text-align: right;
+    flex-grow: 1;
+  }
+  
+  nav span {
+    display: inline-block;
+    padding: 20px 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .banner img{
+    width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+/* Rate Section */
+
+  .flex-container .rate {
+    text-align: center;
+    color:#567FCB;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    font-size: 18px;
+    padding-bottom: 0px;
+  }
+
+  .rate p {
+    font-size: 14px;
+    color: #567FCB;
+  }
+
+  .rate h2 {
+    color: #1F599D;
+  }  
+
+  /* Review Section */
+
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .flex-container .review {
+    background-color: rgba(7, 60, 158, 40%);
+    color: white;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  .flex-container .review p {
+    height: 50px;
+    color: #1F599D;
+  }
+
+  .flex-container .review h5 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: #1F599D;
+  }
+
+  .flex-container .review h4 {
+    color: #1F599D;
+  }
+
+  hr {
+    color: #1F599D;
+  }
+
+  /* Citate Section */
+ 
+  blockquote {
+    text-align: center;
+    font-size: 24px;
+  }
+
+ /* Footer Section */
+
+  .engine img {
+    width: 100%;
+    vertical-align: bottom;
+  }
+
+   footer {
+    background-color: #073C9E;
+    color: #fff;
+    padding: 5px 0;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+  
+  }
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+  }
